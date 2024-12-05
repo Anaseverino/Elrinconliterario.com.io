@@ -1,0 +1,35 @@
+body{
+    font-family: "Poppins";
+
+}
+li{
+    list-style: none;
+    margin-right: 25px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #B39DDB;
+    border-radius: 20px;
+}
+.lista{
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    text-align: center;
+    font-weight: normal;
+}
+.sobrenosotros{
+    display: flex;
+    justify-content: space-around;
+}
+.parrafos{
+    width: 42%;
+    text-align: justify;
+}
