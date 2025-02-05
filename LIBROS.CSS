@@ -1,0 +1,60 @@
+body{
+    font-family: "Poppins";
+}
+li{
+    list-style: none;
+    margin-right: 25px;
+    transition: opacity 0.3 ease-in-out; 
+
+}
+li:hover{
+    opacity: 0.2;
+}
+
+.menu {     
+    display: flex;
+    justify-content: space-between;
+    background-color: #B39DDB;
+    border-radius: 20px;
+      
+}
+
+.lista{
+    display: flex;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+h1{
+    text-align: center;
+}
+
+.texto{
+    display: flex;
+    justify-content: space-around;
+}
+.parrafos{
+    width: 40%;
+    text-align: justify;
+}
+.comprar{
+    font-size: 14px;
+    background-color: #3bd313;
+    padding: 20px 30px 20px 30px;
+    color: white;
+    border-radius: 10px;
+    transition: opacity 0.3 ease-in-out; 
+}
+.comprar:hover{
+    opacity: 0.2;
+
+}
+a{
+    text-decoration: none;
+}
+
