@@ -1,0 +1,49 @@
+
+  body{
+    font-family: "Poppins";
+  }
+  .img-bancos{
+    float: right;
+  }
+  .parrafo1{
+    display: flex;
+  }
+
+  .informacion{
+    display: flex;
+    justify-content: space-around;
+
+    
+  }
+  .img-redes{
+    display: flex;    
+  }
+  h3{
+    text-align: center;
+  }
+
+  
+  li{
+    list-style: none;
+    margin-right: 25px;
+  }
+  .menu{
+    display: flex;
+    background-color: #B39DDB;
+    justify-content: space-between;
+    border-radius: 20px;
+
+}
+.lista{
+    display: flex;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+    transition: opacity 0.3 ease-in-out; 
+    
+}
+a:hover{
+  opacity: 0.2; 
+}

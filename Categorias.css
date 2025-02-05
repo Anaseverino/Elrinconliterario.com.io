@@ -1,0 +1,44 @@
+body{
+    font-family: "Poppins";
+}
+li{
+    list-style: none;
+    margin-right: 25px;
+    transition: opacity 0.3 ease-in-out; 
+
+}
+li:hover{
+    opacity: 0.2;
+}
+
+.menu {     
+    display: flex;
+    justify-content: space-between;
+    background-color: #B39DDB;
+    border-radius: 20px;
+      
+}
+
+.lista{
+    display: flex;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.img{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+.img-movimiento:hover{
+    box-shadow: 0 10px 20px rgb(0, 0, 0 0.20);
+    transform: scale(1.1);
+
+}
